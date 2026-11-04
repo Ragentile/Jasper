@@ -1,29 +1,29 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow,noarchive"><meta name="referrer" content="no-referrer">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-<title>Jasper · 阅读预览</title>
+<title>Jasper · Private preview</title>
 <meta name="description" content="Jasper research · password-protected review">
 <link rel="stylesheet" href="./gate.css"><script src="./gate.js" defer></script>
 </head>
 <body>
 <main class="gate">
-  <div class="eyebrow"><span></span> RAGENTILE / RESEARCH</div>
+  <div class="gate-topbar"><div class="eyebrow"><span></span> RAGENTILE / RESEARCH</div><div class="language-switch" role="group" aria-label="Choose language"><button type="button" data-gate-lang="en" lang="en" aria-pressed="true">EN</button><button type="button" data-gate-lang="zh" lang="zh-CN" aria-pressed="false">中文</button></div></div>
   <h1>Jasper</h1>
-  <p class="subtitle">Learning to optimize GPU kernels.</p>
+  <p class="subtitle" data-gate-copy="subtitle">Learning to optimize GPU kernels.</p>
   <div class="rule"></div>
-  <h2>阅读预览</h2>
-  <p class="hint">输入访问密码，即可阅读完整文章。</p>
+  <h2 data-gate-copy="heading">Private preview</h2>
+  <p class="hint" data-gate-copy="hint">Enter the password to read the full article.</p>
   <form id="unlock-form">
-    <label for="password">访问密码</label>
-    <div class="password-wrap"><input id="password" name="password" type="password" autocomplete="current-password" required autofocus><button class="reveal" type="button" aria-label="显示密码" aria-pressed="false">显示</button></div>
-    <button class="submit" type="submit">打开文章 <span aria-hidden="true">↗</span></button>
+    <label for="password" data-gate-copy="password">Password</label>
+    <div class="password-wrap"><input id="password" name="password" type="password" autocomplete="current-password" required autofocus><button class="reveal" type="button" aria-label="Show password" aria-pressed="false">Show</button></div>
+    <button class="submit" type="submit"><span data-gate-copy="open">Read article</span><span aria-hidden="true">↗</span></button>
     <p id="status" role="status" aria-live="polite"></p>
   </form>
-  <p class="foot">只读预览 · 无需注册或安装软件</p>
-  <noscript>请启用浏览器的 JavaScript 后输入密码。</noscript>
+  <p class="foot" data-gate-copy="foot">Read-only preview · No account or installation needed</p>
+  <noscript>Please enable JavaScript to open this password-protected article. 请启用 JavaScript 后输入密码。</noscript>
 </main>
 </body>
 </html>
